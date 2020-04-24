@@ -169,7 +169,7 @@ body{
     75%{transform: rotate(-15deg);}
     100%{transform: rotate(0deg);}
 }
-.author-img, .img-fluid {
+.author-img{
     box-shadow: 2px 2px 100px rgb(20, 10, 10);    
 }
 .author-img:hover{
