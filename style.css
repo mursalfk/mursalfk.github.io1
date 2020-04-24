@@ -4,7 +4,9 @@ body{
     margin: 0;
     padding: 0;
 }
-
+/* a:active{
+    color: ffffff;
+} */
 :root{
     --color-black: #000000;
     --color-white: #ffffff;
@@ -75,12 +77,14 @@ body{
 }
 
 #header .toggle-button{
-    background: none;
-    color: var(--color-black);
+    background: #000000;
+    color: var(--color-white);
     position: fixed;
+    border-radius: 100%;
+    overflow: hidden;
     top: 25px;
     right: 20px;
-    border: 1px solid var(--color-border);
+    border: 4px solid var(--color-border);
 }
 
 .toggle-left{
@@ -95,6 +99,8 @@ body{
     background-size: cover;
     width: 100%;
     height: 100vh;
+    filter: blur(0px);
+    /* filter: brightness(50%); */
     position: relative;
 }
 
@@ -105,6 +111,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 
 .site-banner .banner-area .author .author-img{
     width: 200px;
@@ -139,5 +147,3 @@ body{
         z-index:0;
     }
 }
-
-/* #site-main */
