@@ -9,8 +9,12 @@
     <link rel="icon" href="assets/misc/favicon3.png" type="image/gif" sizes="16x16">
 
     <link rel="stylesheet" href="./style.css">
+
+  
 </head>
 <body>
+    <div id="loader" class="center"></div> 
+
     
     <!-- header area -->
     <header id="header">
@@ -27,7 +31,7 @@
                         <a href="#skills" class="nav-item nav-link text-white-50 font-os font-size-16 active">Skills</a>
                         <a href="#education" class="nav-item nav-link text-white-50 font-os font-size-16 active">Education</a>
                         <a href="#experience" class="nav-item nav-link text-white-50 font-os font-size-16 active">Experience</a>
-
+                        <a href="#projects" class="nav-item nav-link text-white-50 font-os font-size-16 active">Projects</a>
                         <a href="#certifications" class="nav-item nav-link text-white-50 font-os font-size-16 active">Certifications</a>
                         <a href="#publications" class="nav-item nav-link text-white-50 font-os font-size-16 active">Publications</a>
                         <a href="#footer" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact Us</a>
@@ -35,20 +39,16 @@
                 </nav>
             </div>
         </div>
-        <!-- <div class="menu-btn">
-            <div class="menu-btn_burger"></div>
-        </div> -->
-
-
         <button class="toggle-button">
             <span class="fas fa-bars fa-2x"></span>
         </button>
-        <!-- <div class="social">
+        <div class="social">
             <span class="mr-3">gghgh<i class="fab fa-facebook-f"></i></span>
             <span class="mr-3"><i class="fab fa-twitter"></i></span>
             <span class="mr-3"><i class="fab fa-instagram"></i></span>
             <span class="mr-3"><i class="fab fa-youtube"></i></span>
-        </div> -->
+        </div>
+       	
     </header>
     <!-- #header area -->
     
@@ -63,9 +63,16 @@
                             <div class="author-img  text-center"></div>
                             <h1 class="text-white font-staat font-size-40 text-uppercase py-3 text-center">Mursal Furqan</h1>
                             <h5 class="text-white font-ram font-size-27 text-center">i'm <span id="typed"></span></h5>
-                        </div>
+                            </div>
                     </div>
                 </section>
+                <!-- <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#fff" fill-opacity="1" d="M0,64L48,106.7C96,149,192,235,288,
+                    229.3C384,224,480,128,576,112C672,96,768,160,864,181.3C960,203,1056,181,1152,
+                    181.3C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,
+                    320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,
+                    288,320C192,320,96,320,48,320L0,320Z"></path>
+                </svg> -->
                 <!-- #site-banner area -->
 
                 <!-- about me area -->
@@ -101,7 +108,7 @@
                                     <div class="d-flex flex-column">
                                         <p class="font-ram"><b>Degree: </b><span class="text-black-50">Bachelor (Final Year)</span></p>
                                         <p class="font-ram"><b>Mail: </b><span class="text-black-50">mursalfurqan@gmail.com</span></p>
-                                        <p class="font-ram"><b>GitHub: </b><span class="text-black-50">@mursalfk</span></p>
+                                        <p class="font-ram"><b>Instagram: </b><span class="text-black-50">@mursalfk</span></p>
                                     </div>
                                 </div>
                                 <a href="https://www.fiverr.com/users/mursal_furqan/" target="_blank" >                               
@@ -282,7 +289,7 @@
                     </section>
                 <!-- #services -->
 
-                <!-- reference -->
+                <!-- Experience -->
                     <section class="reference bg-light py-5 px-4" id="experience">
                         <div class="refer py-3">
                             <h5 class="text-uppercase font-os font-size-16 text-muted">What is my</h5>
@@ -321,41 +328,81 @@
                         </div>
                     </section>
                 <!-- #reference -->
+                
+                <!-- Experience -->
+                <section class="reference bg-light py-5 px-4" id="projects">
+                    <div class="refer py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">my</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Projects</h1>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-cog fa-3x"></i></span>
+                                <h4 class="font-ram py-4">STEAM Trainer for 4IR</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    <b><i>Int't Islamic Univ. Islamabad Schools, Latifabad, Hyderabad </i></b><br> <br>
+                                    Worked with IIUISL team to teach and instruct young students about STEAM w.r.t. 4th Industrial Revolution and its integration in their syllabus.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-network-wired fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Network Analyst (Intern)</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    <b><i>Pakistan Telecommunication Limited, Hyderabad</i></b><br> <br>
+                                    Worked with PTCL’s customer relation and network analyst team to detect and solve customer complaints. Also worked on Nokia Motive to document faulty lines.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fab fa-react fa-3x"></i></span>
+                                <h4 class="font-ram py-4">React Native Developer (Intern)</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    <b><i>Codex Innovation Club (CIC) Hub, Hyderabad </i></b><br> <br>
+                                    Have an experience of 14 Weeks being an React Native Internee. Helped in different projects including: Smart Attendance System (With QR Code) etc.                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-                <!-- work -->
+                <!-- certs -->
                     <section class="work py-5 px-4" id="certifications">
                         <div class="py-3">
                             <h5 class="text-uppercase font-os font-size-16 text-muted">certifications and</h5>
                             <h1 class="text-uppercase font-staat font-size-34">Achievements</h1>
                         </div>
                         <div class="row text-center" >
-                            <div class="col-sm-4 pb-4">
-                                <img src="./assets/work/01.png" alt="work1" class="img-fluid tilt">
-                                <h4 class="font-ram py-4">Microsoft Student Partner</h4>
+
+                            <div class="col-sm-2 pb-1">
+                                <img src="./assets/work/01.png" width="100" height="100"  alt="work1" class="img-fluid tilt">
+                                <h4 class="font-rami py-2">Microsoft Student Partner</h4>
                             </div>
-                            <div class="col-sm-4 pb-4 ">
-                                <img src="./assets/work/02.png" alt="work1" class="img-fluid tilt">
-                                <h4 class="font-ram py-4">Microsoft Technology Associate</h4>
+                            <div class="col-sm-2 pb-1 ">
+                                <img src="./assets/work/02.png" width="100" height="100"   alt="work1" class="img-fluid tilt">
+                                <h4 class="font-rami py-2">Microsoft Technology Associate</h4>
                             </div>
-                            <div class="col-sm-4 pb-4">
-                                <img src="./assets/work/03.png" alt="work1" class="img-fluid tilt">
-                                <h4 class="font-ram py-4">Microsoft Innovative Educator Trainer</h4>
+                            <div class="col-sm-2 pb-1">
+                                <img src="./assets/work/03.png" width="100" height="100"   alt="work1" class="img-fluid tilt">
+                                <h4 class="font-rami py-2">Microsoft Innovative Educator Trainer</h4>
                             </div>
-                            <div class="col-sm-4 pb-4">
-                                <img src="./assets/work/04.png" alt="work1" class="img-fluid tilt">
-                                <h4 class="font-ram py-4">Microsoft Office Specialist Expert - Word</h4>
+                            <div class="col-sm-2 pb-1">
+                                <img src="./assets/work/04.png"  width="100" height="100"  alt="work1" class="img-fluid tilt">
+                                <h4 class="font-rami py-2">Microsoft Office Specialist Expert - Word</h4>
                             </div>
-                            <div class="col-sm-4 pb-4">
-                                <img src="./assets/work/05.png" alt="work1" class="img-fluid tilt">
-                                <h4 class="font-ram py-4">Microsoft Office Specialist - Excel</h4>
+                            <div class="col-sm-2 pb-1">
+                                <img src="./assets/work/05.png" width="100" height="100"   alt="work1" class="img-fluid tilt">
+                                <h4 class="font-rami py-2">Microsoft Office Specialist - Excel</h4>
                             </div>
-                            <div class="col-sm-4 pb-4">
-                                <img src="./assets/work/06.png" alt="work1" class="img-fluid tilt">
-                                <h4 class="font-ram py-4">Microsoft Office Specialist - Powerpoint</h4>
+                            <div class="col-sm-2 pb-1">
+                                <img src="./assets/work/06.png" width="100" height="100"   alt="work1" class="img-fluid tilt">
+                                <h4 class="font-rami py-2">Microsoft Office Specialist - Powerpoint</h4>
                             </div>
-                            <div class="col-sm-4 pb-4">
-                                <img src="./assets/work/07.png" alt="work1" class="img-fluid tilt">
-                                <h4 class="font-ram py-4">Microsoft Office Specialist - Word</h4>
+                            <div class="col-sm-2 pb-1">
+                                <img src="./assets/work/07.png" width="100" height="100"   alt="work1" class="img-fluid tilt">
+                                <h4 class="font-rami py-2">Microsoft Office Specialist - Word</h4>
                             </div>
                         </div>
                     </section>
@@ -492,5 +539,22 @@
 <script src="./vendor/typed/typed.min.js"></script>
 
 <script src="./index.js"></script>
+
+<script> 
+    document.onreadystatechange = function() { 
+        if (document.readyState !== "complete") { 
+            document.querySelector( 
+              "body").style.visibility = "hidden"; 
+            document.querySelector( 
+              "#loader").style.visibility = "visible"; 
+        } else { 
+            document.querySelector( 
+              "#loader").style.display = "none"; 
+            document.querySelector( 
+              "body").style.visibility = "visible"; 
+        } 
+    }; 
+</script>
+
 </body>
 </html>
