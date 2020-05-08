@@ -27,6 +27,7 @@
 body{
     margin: 0;
     padding: 0;
+    display: flex;
 }
 /* a:active{
     color: ffffff;
@@ -122,67 +123,9 @@ body{
     transform: rotate(180deg);
 }
 
-/* .menu-btn{
-    position: relative;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
-    transition: all .5s ease-in-out;
-    border: 3px solid #fff;
-}
-
-.menu-btn_burger{
-    width: 50px;
-    height: 6px;
-    background:#fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255,101,47,.2);
-    transition: all 0.5s ease-in-out;
-}
-
-.menu-btn_burger::before,
-.menu-btn_burger::after{
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 6px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255,101,47,.2);
-    transition: all 0.5s ease-in-out;
-}
-
-.menu-btn_burger::before{
-    transform: translateY(-16px);
-}
-
-.menu-btn_burger::after{
-    transform: translateY(16px);
-} */
-
-/* .banner-area>background{
-    filter: blur(25px);
-} */
-
-
 .toggle-left{
     left: 0 !important;
     width: 1000px !important;
-}
-
-/* .about_me_image:hover{
-    border-radius: 15px;
-    filter: contrast(20%);
-    filter: sepia(100%);
-} */
-
-.social{
-    /* background-color: rgba(189, 184, 184, 0.712); */
-    /* padding: 10px; */
-    /* border-radius: 10px; */
 }
 
 .ico{
@@ -296,4 +239,65 @@ body{
     #header{
         z-index:0;
     }
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.container .card{
+    max-width: 250px;
+    position: relative;
+    height: auto;
+    background: #fff;
+    margin: 10px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column; 
+    /* box-shadow: 0 5px 20px rgba(0,0,0,0.5); */
+    transition: 0.3s ease-in-out;
+}
+
+/* .container .card:hover{
+    height: 420px;
+} */
+
+.container .card .imBx{
+    position: relative;
+    width: 100px;
+    height: 100px; 
+    top: .60px;
+    left: 60px;
+    z-index: 1;
+    /* box-shadow: 0 5px 20px rgba(0,0,0,0.2); */
+    overflow: hidden;
+}
+
+.container .card .imBx .projectPic{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
 }
