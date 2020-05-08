@@ -9,7 +9,7 @@ $(document).ready(function(e){
     $win.resize(function(){
         toggle_onclick($win, $navbar, width);
     });
-
+// ResearchGate
     $toggle.click(function(e){
         $navbar.toggleClass("toggle-left");
     })
