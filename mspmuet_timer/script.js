@@ -1,5 +1,5 @@
 const STEP_LENGTH = 5;
-const CELL_SIZE = 3;
+const CELL_SIZE = 1;
 const BORDER_WIDTH = 2;
 const MAX_FONT_SIZE = 500;
 const MAX_ELECTRONS = 5;
