@@ -1,0 +1,202 @@
+@font-face{
+  font-family: 'Quantum';
+  src: url('assets/fonts/Quantum.otf');
+}
+
+body{
+  background: #222222;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+div#qpowerlogo{
+  text-align: right;
+  padding:20px;
+  display: inline-block;
+}
+
+table{
+  width:100%;
+}
+
+.msp{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.qlogo{
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  padding-right: 10px;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.socials-table{
+  text-align: start;
+}
+
+#social{
+  height: 30px;
+
+}
+
+.site-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  color: #222;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+  display: inline-table;
+  color: #222222;
+  font-style: italic;
+  font-size: 20px auto;
+}
+
+ul li{
+  display: inline;
+  margin: 0px 15px;
+}
+.social{
+  display: flexbox;
+  padding: 20px;
+  width: 250px;
+}
+
+.handle-text{
+  color:#137e6d;
+}
+
+#qpowertitle{
+color:white;
+text-align: center;
+font-size: 15px;
+font-style: oblique;
+font-family: 'Quantum';
+}
+
+img #qpower{
+display: inline-block;
+height:100px;
+}
+
+img #msplogo{
+display: inline-block;
+height: 100;
+}
+
+h1{
+color: #396;
+font-weight: 100;
+font-size: 40px;
+margin: 40px 0px 20px;
+}
+
+#clockdiv{
+font-family: sans-serif;
+color: #fff;
+display: inline-block;
+font-weight: 100;
+text-align: center;
+font-size: 30px;
+}
+
+#clockdiv > div{
+padding: 10px;
+border-radius: 3px;
+background: #00BF96;
+display: inline-block;
+}
+
+#clockdiv div > span{
+padding: 15px;
+border-radius: 3px;
+background: #00816A;
+display: inline-block;
+}
+
+.smalltext{
+padding-top: 5px;
+font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ct-footer {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.ct-footer-list {
+  list-style: none;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.ct-footer-list > li .ct-footer-list-header {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #101f47;
+  font-size: 20px;
+  margin: 0px;
+}
+
+/* Media Queries */
+
+@media (min-width:1200px) {
+  .ct-footer-list > li {
+    width: 20%;
+    display: table-cell;
+
+    vertical-align: middle;
+  }
+  .ct-footer-list > li:last-child {
+    width: 20%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .ct-footer-list > li {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .ct-footer-list > li {
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width:767px) {
+  .ct-footer-list > li {
+    width: 50%;
+  }
+}
