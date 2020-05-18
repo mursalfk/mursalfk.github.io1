@@ -5,6 +5,8 @@ const MAX_FONT_SIZE = 500;
 const MAX_ELECTRONS = 5;
 const CELL_DISTANCE = CELL_SIZE + BORDER_WIDTH;
 
+
+
 // shorter for brighter paint
 // be careful of performance issue
 const CELL_REPAINT_INTERVAL = [
