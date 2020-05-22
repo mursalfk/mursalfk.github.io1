@@ -286,3 +286,14 @@ body{
     color: #fff;
     transition: 0.5s;
 }
+
+.list-group-item{
+    /* display: inline; */
+    margin-top: 25px;
+    display: flexbox;
+}
+.back_btn{
+    display: inline;
+    margin: 20px;
+}
+
