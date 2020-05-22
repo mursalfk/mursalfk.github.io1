@@ -297,3 +297,19 @@ body{
     margin: 20px;
 }
 
+#userRepos li li{
+    transition: 0.3s;
+}
+
+#userRepos li li:hover{
+    /* transition-delay: 0.5s; */
+
+    background-color: #f1efef;
+    /* animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: project_color; */
+}
+
+@keyframes project_color {
+    50%{background-color: #f1efef;}
+}

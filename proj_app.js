@@ -12,10 +12,9 @@ xhr.onload = function () {
         // li.classList.add('card border-0')
 
         li.innerHTML = (`
-            <li class="col-sm-0 card" style="margin-top:25px; padding:20px">
-                <p><strong>Project:</strong> ${data[i].name}</p>
+            <li class="col-sm-0 card" style="margin-top:25px; padding:20px; width:250px; overflow:hidden; height:300px">
+                <p><strong>Project:</strong> <a href="${data[i].html_url}" target="_blank"><h4>${data[i].name}</h4></a></p>
                 <p><strong>Description:</strong> ${data[i].description}</p>
-                <p><strong>URL:</strong> <a href="${data[i].html_url}">${data[i].html_url}</a></p>
             </li>
         `);
         ul.appendChild(li);        
