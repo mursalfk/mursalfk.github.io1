@@ -4,6 +4,7 @@ $(document).ready(function(e){
     $toggle = $('.toggle-button');
     var width = $navbar.width();
     toggle_onclick($win, $navbar, width);
+
     // resize event
     $win.resize(function(){
         toggle_onclick($win, $navbar, width);
