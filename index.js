@@ -1,6 +1,4 @@
 $(document).ready(function(e){
-    
-    
     $win = $(window);
     $navbar = $('#header');
     $toggle = $('.toggle-button');
