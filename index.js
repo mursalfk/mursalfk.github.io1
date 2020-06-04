@@ -8,7 +8,6 @@ $(document).ready(function(e){
     $win.resize(function(){
         toggle_onclick($win, $navbar, width);
     });
-
     $toggle.click(function(e){
         $navbar.toggleClass("toggle-left");
     })
