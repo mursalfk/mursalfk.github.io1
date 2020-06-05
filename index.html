@@ -20,14 +20,14 @@
     
     <!-- header area -->
     <header id="header">
-        <div class="row m-0">
+        <div class="row m-0 ">
             <div class="col-3 bgcolor-black">
-                <nav class="primary-nav navbar-expand-md">
+                <nav class="primary-nav navbar-expand-md ">
                     <div class="site-title text-center text-light py-5">
                         <a href="" class="navbar-brand font-staat font-size-40">MURSAL</a>
                         <!-- <p class="description text-uppercase font-os">Mursal Furqan</p> -->
                     </div>
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column ">
                         <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Intro</a>
                         <a href="#about_me" class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
                         <a href="#skills" class="nav-item nav-link text-white-50 font-os font-size-16 active">Skills</a>
@@ -64,8 +64,17 @@
                         <div class="author  text-center " >
                             <div class="author-img  text-center"></div>
                             <h1 class="text-white font-staat font-size-40 text-uppercase py-3 text-center">Mursal Furqan</h1>
-                            <h5 class="text-white font-ram font-size-27 text-center">i'm <span id="typed"></span></h5>
+                            <div class="container">
+                                
                             </div>
+
+                            <h5 class="text-white font-ram font-size-27 text-center">
+                                <div class="text" style="  font-weight: 500; font-size: 28px; color: #fafafa;">
+                                </div>
+                            </h5>
+                            <!-- <span id="typed"></span> -->
+
+                        </div>
                     </div>
                 </section>
                 <!-- #site-banner area -->
@@ -81,8 +90,7 @@
                                 <img src="./assets/about_me.jpg" alt="profile image" class="img-fluid about_me_image" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
                             </div>
                             <div class="col-sm-6">
-                                <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
-                                <h5 class="font-ram font-size-20 py-2">I'm Mursal & <span id="typed_2"></span></h5>
+                                <h5 class="font-ram font-size-20 py-2 text-uppercase ">I'm Mursal Furqan<div class="text"></div></h5>
                                 <p class="font-ram text-black-50 py-2 bio">
                                     A Final year CS Engineering student with grave 
                                     interest and knowledge in programming and logic building. 
@@ -534,8 +542,33 @@
 <script src="./vendor/typed/typed.min.js"></script>
 
 <script src="./index.js"></script>
-
+<script src="scramble.js"></script>
 <script> 
+    const phrases = [
+        'Web Developer',
+        'Graphics Designer',
+        'AI Engineer',
+        '#MSFT Student Partner',
+        '#MSFT Tech. Associate',
+        'Writer',
+        'Illustrator',
+        'UI/UX Engg.'
+    ];
+
+const el = document.querySelector('.text');
+const fx = new TextScramble(el);
+let counter = 0;
+
+const next = () => {
+  fx.setText("I'm " + phrases[counter]).then(() => {
+    setTimeout(next, 800);
+  });
+  counter = (counter + 1) % phrases.length;
+};
+
+next();
+
+
     document.onreadystatechange = function() { 
         if (document.readyState !== "complete") { 
             document.querySelector( 
