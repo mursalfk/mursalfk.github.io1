@@ -23,9 +23,9 @@ function toggle_onclick($win, $navbar, width){
 var typed = new Typed('#typed' , {
     strings: [
         'Web Developer',
-        'Graphics Designer',
+        'Data Scientist',
         'AI Engineer',
-        '#MSFT Student Partner',
+        '#MSFT Student Ambassador',
         '#MSFT Tech. Associate',
         'Writer',
         'Illustrator',
@@ -39,7 +39,7 @@ var typed = new Typed('#typed' , {
 var typed_2 = new Typed('#typed_2' , {
     strings: [
         'Web Developer',
-        'Graphics Designer',
+        'Data Scientist',
         'AI Engineer',
         'Writer',
         'Illustrator',
