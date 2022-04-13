@@ -25,7 +25,7 @@ var typed = new Typed('#typed' , {
         'Web Developer',
         'Data Scientist',
         'AI Engineer',
-        '#MSFT Student Ambassador',
+        'AWS Community Builder',
         '#MSFT Tech. Associate',
         'Writer',
         'Illustrator',
