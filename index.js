@@ -22,8 +22,8 @@ function toggle_onclick($win, $navbar, width){
 
 var typed = new Typed('#typed' , {
     strings: [
-        'Web Developer',
-        'Data Scientist',
+        'React Developer',
+        'Web Designer',
         'AI Engineer',
         'AWS Community Builder',
         '#MSFT Tech. Associate',
