@@ -27,7 +27,7 @@ var typed = new Typed('#typed' , {
         'AI Engineer',
         'AWS Community Builder',
         'Hack Club Leader',
-        // 'Agora.io Student Ambassador',
+        'Agora.io Student Ambassador',
         // 'Technology Evangelist',
         // 'GitKraken Ambassador',
         // 'Research Student',
