@@ -31,7 +31,7 @@ var typed = new Typed('#typed' , {
         'Technology Evangelist',
         'GitKraken Ambassador',
         'Research Student',
-        'Community Builder',
+        'Tech. Community Nerd',
         '#MSFT Tech. Associate',
         '#MSFT Certified Trainer',
         'Writer',
@@ -45,9 +45,18 @@ var typed = new Typed('#typed' , {
 
 var typed_2 = new Typed('#typed_2' , {
     strings: [
-        'Web Developer',
-        'Data Scientist',
+        'React Developer',
+        'Web Designer',
         'AI Engineer',
+        'AWS Community Builder',
+        'Hack Club Leader',
+        'Agora.io Student Ambassador',
+        'Technology Evangelist',
+        'GitKraken Ambassador',
+        'Research Student',
+        'Tech. Community Nerd',
+        '#MSFT Tech. Associate',
+        '#MSFT Certified Trainer',
         'Writer',
         'Illustrator',
         'UI/UX Engg.'
