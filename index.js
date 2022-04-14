@@ -47,7 +47,6 @@ var typed_2 = new Typed('#typed_2' , {
     strings: [
         'React Developer',
         'Web Designer',
-        'AI Engineer',
         'AWS Community Builder',
         'Hack Club Leader',
         'Agora.io Student Ambassador',
