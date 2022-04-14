@@ -29,7 +29,7 @@ var typed = new Typed('#typed' , {
         'Hack Club Leader',
         'Agora.io Student Ambassador',
         'Technology Evangelist',
-        // 'GitKraken Ambassador',
+        'GitKraken Ambassador',
         // 'Research Student',
         // 'Community Builder',
         '#MSFT Tech. Associate',
