@@ -30,7 +30,7 @@ var typed = new Typed('#typed' , {
         'Agora.io Student Ambassador',
         'Technology Evangelist',
         'GitKraken Ambassador',
-        // 'Research Student',
+        'Research Student',
         // 'Community Builder',
         '#MSFT Tech. Associate',
         '#MSFT Certified Trainer',
