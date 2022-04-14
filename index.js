@@ -31,7 +31,7 @@ var typed = new Typed('#typed' , {
         'Technology Evangelist',
         'GitKraken Ambassador',
         'Research Student',
-        // 'Community Builder',
+        'Community Builder',
         '#MSFT Tech. Associate',
         '#MSFT Certified Trainer',
         'Writer',
