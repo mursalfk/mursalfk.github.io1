@@ -8,6 +8,42 @@
     height: 70px; 
     animation: spin 1s linear infinite; 
 } 
+
+.title_loader{
+    font-size: 5rem;
+    color: white;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.title_loader span{
+    mix-blend-mode: difference;
+}
+
+.title_loader::after{
+    content: '';
+    position: absolute;
+    height: 95px;
+    left: -10px;
+    top: 0px;
+    width: 150px;
+    background-color: rgb(255 255 255);
+    z-index: -1;
+    color: black;
+    overflow: hidden;
+    animation: animate 4s infinite linear;
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(310px);
+    }
+}
   
 @keyframes spin { 
     100% { 
