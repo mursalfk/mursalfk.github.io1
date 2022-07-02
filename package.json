@@ -1,45 +1,28 @@
 {
-  "name": "portfolio_react",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "http://mursalfk.github.io/React-Portfolio", 
-
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^4.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scramble-text": "^1.0.1",
-    "react-scripts": "5.0.0",
-    "three": "^0.141.0",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "particles.js",
+  "version": "2.0.0",
+  "description": "A lightweight JavaScript library for creating particles",
+  "homepage": "http://vincentgarreau.com/particles.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VincentGarreau/particles.js.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "keywords": [
+    "particles",
+    "particle",
+    "canvas"
+  ],
+  "author": "Vincent Garreau",
+  "license": "MIT",
+  "files": [
+    "particles.js",
+    "particles.min.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/VincentGarreau/particles.js/issues"
+  },
+  "homepage": "https://github.com/VincentGarreau/particles.js"
 }
