@@ -2,7 +2,7 @@
   "name": "portfolio_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mursalfk.github.io/", 
+  "homepage": "http://mursalfk.github.io/React-Portfolio", 
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
